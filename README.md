@@ -1,16 +1,23 @@
-# React + Vite
+# Student Directory – Week 11 React Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Student:** Batsuren Anar  
+**Student ID:** 202637018  
+**Course:** Web Programming  
+**Technologies:** React, JavaScript, Vite, CSS
 
-Currently, two official plugins are available:
+## Project Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+A React-based Student Directory that displays student information using reusable profile cards.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Reusable `StudentProfileCard` component
+- Five props: name, student ID, major, year, and GPA
+- Multiple student profiles rendered using JavaScript `map()`
+- Custom CSS with borders, padding, rounded corners, and hover effects
+- Responsive student card layout
 
-## Expanding the ESLint configuration
+## Deployment
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Live Website:** https://the-anar.github.io/week11-react/
+- **GitHub Repository:** https://github.com/The-Anar/week11-react
