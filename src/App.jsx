@@ -1,50 +1,31 @@
 
 import './App.css'
-
-function StudentProfileCard({ name, studentId, major, year, gpa }) {
-  return (
-    <article className="student-card">
-      <div className="card-header">
-        <h2>{name}</h2>
-        <span className="student-id">ID: {studentId}</span>
-      </div>
-
-      <div className="card-body">
-        <p><strong>Major:</strong> {major}</p>
-        <p><strong>Year:</strong> {year}</p>
-        <p><strong>GPA:</strong> {gpa}</p>
-      </div>
-    </article>
-  )
-}
+import StudentProfileCard from './StudentProfileCard'
 
 function App() {
   const students = [
-    {
-      id: 1,
-      name: 'Batsuren Anar',
-      studentId: '202637018',
-      major: 'Computer Engineering',
-      year: 1,
-      gpa: 3.4
-    },
-    {
-      id: 2,
-      name: 'Sample Student 2',
-      studentId: 'SAMPLE-002',
-      major: 'Computer Engineering',
-      year: 2,
-      gpa: 3.5
-    },
-    {
-      id: 3,
-      name: 'Sample Student 3',
-      studentId: 'SAMPLE-003',
-      major: 'Computer Engineering',
-      year: 3,
-      gpa: 3.8
-    }
-  ]
+  {
+    name: "Batsuren Anar",
+    studentId: "202637018",
+    major: "Computer Engineering",
+    year: 1,
+    gpa: 3.4,
+  },
+  {
+    name: "Ankhorgil",
+    studentId: "202637470",
+    major: "Computer Engineering",
+    year: 1,
+    gpa: 3.4,
+  },
+  {
+    name: "Nergui",
+    studentId: "202611111",
+    major: "Computer Engineering",
+    year: 1,
+    gpa: 3.2,
+  },
+];
 
   return (
     <main className="directory">

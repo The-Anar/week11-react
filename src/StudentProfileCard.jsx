@@ -1,0 +1,21 @@
+
+import './App.css'
+
+function StudentProfileCard({ name, studentId, major, year, gpa }) {
+  return (
+    <article className="student-card">
+      <div className="card-header">
+        <h2>{name}</h2>
+        <span className="student-id">ID: {studentId}</span>
+      </div>
+
+      <div className="card-body">
+        <p><strong>Major:</strong> {major}</p>
+        <p><strong>Year:</strong> {year}</p>
+        <p><strong>GPA:</strong> {gpa}</p>
+      </div>
+    </article>
+  )
+}
+
+export default StudentProfileCard
